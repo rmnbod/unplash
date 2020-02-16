@@ -1,0 +1,18 @@
+.section-list {
+    margin-right: 10px;
+    flex: auto;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+#section-list-separator {
+    height: 70%;
+    margin: auto 0;
+    width: 4px;
+    margin-left: 5px;
+    background-color: lightgray;
+}
+
+.section-list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

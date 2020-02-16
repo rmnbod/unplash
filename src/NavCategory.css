@@ -1,0 +1,25 @@
+.nav-category {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  height: 2.5rem;
+  align-items: center;
+}
+
+.nav-category::after {
+  content: '';
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,rgb(37, 37, 37) 95%,rgb(37, 37, 37));
+}
+
+.nav-category p {
+  display: inline-block;
+  padding-left: 10px;
+  line-height: 3rem;
+  color: lightgray;
+}
