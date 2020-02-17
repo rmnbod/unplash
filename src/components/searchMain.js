@@ -2,8 +2,8 @@ import React from 'react';
 import SearchBar from './searchBar';
 
 const searchMain = () => (
-    <section className='search-main'>
-        <div id='search-block'>
+    <section id='search-main'>
+        <div id='search-panel'>
             <h1>Unplash</h1>
             <p>The internet’s source of freely usable images.
                 <br />

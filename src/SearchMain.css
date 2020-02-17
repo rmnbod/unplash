@@ -11,7 +11,7 @@
   border: none;
 }
 
-.search-main {
+#search-main {
   position: relative;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@
   font-size: 1rem;
 }
 
-#search-block {
+#search-panel {
   width: calc(100% - 20px);
   margin: 0 auto;
   height: 60%;
@@ -49,7 +49,7 @@
   justify-content: space-between;
 }
 
-#search-block p {
+#search-panel p {
   line-height: 1.5rem;
   font-size: 0.95rem;
   display: inline;
@@ -64,12 +64,13 @@
 #keyword-list li{
   display: inline;
 }
+
 #keyword-list a {
   text-decoration: none;
   color: rgba(252, 252, 252, 0.473);
   margin-right: 5px;
 }
 
-#search-block h1 {
+#search-panel h1 {
   color: lightgray;
 }
