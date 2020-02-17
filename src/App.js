@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from "./components/header";
+import LoginJoin from './components/loginJoin';
 import SectionList from "./components/sectionList";
 import SearchMain from "./components/searchMain";
 import Item from "./components/item";
@@ -14,20 +15,17 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <section className='login-join'>
-          <a id='login' href='/login'>Login</a>
-          <a id='join' href='/join'>Join Free</a>
-        </section>
+        <LoginJoin />
         <nav className='nav-category'>
           <p>Editorial</p>
-          <div id='section-list-separator'/>
-          <SectionList/>
+          <div id='section-list-separator' />
+          <SectionList />
         </nav>
-        <SearchMain/>
+        <SearchMain />
         <article>
-          <Item photo={photo1} avatar={avatar}/>
-          <Item photo={photo2} avatar={avatar}/>
-          <Item photo={photo3} avatar={avatar}/>
+          <Item photo={photo1} avatar={avatar} />
+          <Item photo={photo2} avatar={avatar} />
+          <Item photo={photo3} avatar={avatar} />
         </article>
       </main>
       <footer></footer>

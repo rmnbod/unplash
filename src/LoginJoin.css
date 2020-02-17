@@ -1,22 +1,22 @@
-#login {
-  border: 1px solid lightgray;
+#login-join {
+  display: flex;
+}
+
+#login-join a {
   border-radius: 3px;
   line-height: 2rem;
-  margin: 0 5px 0 10px;
   flex: auto;
   text-align: center;
   text-decoration: none;
-  color: lightgray;
   font-size: 0.9rem;
+  color: lightgray;
+}
+
+#login {
+  border: 1px solid lightgray;
+  margin: 0 5px 0 10px;
 }
 #join {
   background-color: rgb(20, 138, 138);
-  border-radius: 3px;
-  line-height: 2rem;
   margin: 0 10px 0 5px;
-  flex: auto;
-  text-align: center;
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 0.9rem;
 }
