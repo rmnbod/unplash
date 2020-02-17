@@ -7,7 +7,7 @@ const item = (props) => (
     <div className='item'>
         <div className='item-user'>
             <img className='avatar' src={props.avatar} alt='avatar' />
-            <p className='username'>John Doe</p>
+            <p className='username'>{props.username}</p>
         </div>
         <img src={props.photo} alt='photso' />
         <div className='photo-actions'>
