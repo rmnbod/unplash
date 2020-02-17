@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/header";
 import LoginJoin from './components/loginJoin';
-import SectionList from "./components/sectionList";
+import Categories from './components/categories';
 import SearchMain from "./components/searchMain";
 import Item from "./components/item";
 import photo1 from '../src/assets/images/photo1.jpg'
@@ -16,11 +16,7 @@ function App() {
       <Header />
       <main>
         <LoginJoin />
-        <nav className='nav-category'>
-          <p>Editorial</p>
-          <div id='section-list-separator' />
-          <SectionList />
-        </nav>
+        <Categories />
         <SearchMain />
         <article>
           <Item photo={photo1} avatar={avatar} />
