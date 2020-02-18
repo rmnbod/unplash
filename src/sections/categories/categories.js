@@ -1,10 +1,11 @@
 import React from 'react';
 import SectionList from "./sectionList";
+import styles from './NavCategory.module.css';
 
 const categories = () => (
-    <nav className='nav-category'>
+    <nav className={styles.container}>
         <p>Editorial</p>
-        <div id='section-list-separator' />
+        <div className={styles.separator} />
         <SectionList />
     </nav>
 );

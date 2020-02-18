@@ -1,9 +1,10 @@
 import React from 'react';
 import SearchBar from './searchBar';
+import styles from './Search.module.css';
 
 const searchMain = () => (
-    <section id='search-main'>
-        <div id='search-panel'>
+    <section className={styles.container}>
+        <div className={styles.content}>
             <h1>Unplash</h1>
             <p>The internet’s source of freely usable images.
                 <br />
@@ -11,7 +12,7 @@ const searchMain = () => (
             <SearchBar />
             <div>
                 <p>Trending: </p>
-                <ul id='keyword-list'>
+                <ul className={styles.keywordList}>
                     <li>
                         <a href='/searchKeyword'>Keyword</a>
                     </li>

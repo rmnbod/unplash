@@ -1,13 +1,13 @@
-.item {
+.content {
     width: 100%;
 }
 
-.item img {
+.content img {
     width: 100%;
     height: auto;
 }
 
-img.avatar {
+.user img {
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -15,26 +15,26 @@ img.avatar {
     margin-left: 10px;
 }
 
-p.username {
+.user p {
     display: inline-block;
     margin-left: 10px;
     color: whitesmoke;
 }
 
-.item-user {
+.user {
     height: 30px;
     display: flex;
     align-items: center;
     margin: 10px 0;
 }
 
-.photo-actions {
+.actions {
     display: flex;
     justify-content: space-between;
     margin: 10px 10px 50px 10px;
 }
 
-.photo-actions button {
+.actions button {
     width: 40px;
     height: 30px;
     padding: 5px 10px;

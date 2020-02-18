@@ -1,4 +1,4 @@
-.nav-category {
+.container {
   position: relative;
   width: 100%;
   display: flex;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.nav-category::after {
+.container::after {
   content: '';
   width: 60px;
   height: 100%;
@@ -17,21 +17,21 @@
   background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,rgb(37, 37, 37) 95%,rgb(37, 37, 37));
 }
 
-.nav-category p {
+.container > p {
   display: inline-block;
   padding-left: 10px;
   line-height: 3rem;
   color: lightgray;
 }
 
-.section-list {
+.sectionList {
   margin-right: 10px;
   flex: auto;
   overflow: scroll;
   white-space: nowrap;
 }
 
-#section-list-separator {
+.separator {
   height: 70%;
   margin: auto 0;
   width: 4px;
@@ -39,6 +39,12 @@
   background-color: rgb(119, 119, 119);
 }
 
-.section-list::-webkit-scrollbar { 
+.sectionList p {
+  display: inline;
+  margin: 0 0.1rem;
+  color: lightgray;
+}
+
+.sectionList::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
 }

@@ -4,12 +4,6 @@
     margin: 0px;
 }
 
-@import url("Header.css");
-@import url("LoginJoin.css");
-@import url("NavCategory.css");
-@import url("SearchMain.css");
-@import url("Item.css");
-
 main {
     margin-top: 3rem;
 }

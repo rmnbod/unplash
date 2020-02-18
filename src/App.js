@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/header";
-import LoginJoin from './components/loginJoin';
-import Categories from './components/categories';
-import SearchMain from "./components/searchMain";
-import Feed from "./components/feed";
+import Header from "./sections/header/header";
+import LoginJoin from './sections/login-join/loginJoin';
+import Categories from './sections/categories/categories';
+import SearchMain from "./sections/search-section/searchMain";
+import Feed from "./sections/feed/feed";
 import photo1 from '../src/assets/images/photo1.jpg'
 import photo2 from '../src/assets/images/photo2.jpg'
 import photo3 from '../src/assets/images/photo3.jpg'
