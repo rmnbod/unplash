@@ -5,7 +5,7 @@ import upload from "../../assets/icons/upload.svg";
 import search from "../../assets/icons/search.svg";
 import styles from '../header/Header.module.css';
 
-const header = () => {
+export default () => {
   return (
     <header className={styles.container}>
       <ul className={styles.itemList}>
@@ -33,5 +33,3 @@ const header = () => {
     </header>
   );
 };
-
-export default header;

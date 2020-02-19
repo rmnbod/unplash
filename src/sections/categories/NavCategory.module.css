@@ -32,9 +32,10 @@
 }
 
 .separator {
+  flex-shrink: 0;
   height: 70%;
   margin: auto 0;
-  width: 4px;
+  width: 1px;
   margin-left: 5px;
   background-color: rgb(119, 119, 119);
 }
