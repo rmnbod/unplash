@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import MobileHeader from "./sections/header/mobileHeader";
 import LoginJoin from './sections/login-join/loginJoin';
 import Categories from './sections/categories/categories';
 import SearchMain from "./sections/search-section/searchMain";
@@ -9,7 +8,7 @@ import photo1 from '../src/assets/images/photo1.jpg'
 import photo2 from '../src/assets/images/photo2.jpg'
 import photo3 from '../src/assets/images/photo3.jpg'
 import avatar from '../src/assets/images/avatar.jpg'
-import { Desktop, Mobile } from './hocs/adaptive-hocs';
+import AdaptiveHeader from './sections/header/AdaptiveHeader';
 
 const items = [
   {
@@ -32,9 +31,7 @@ const items = [
 function App() {
   return (
     <div className="App">
-      <Mobile>
-        <MobileHeader />
-      </Mobile>
+      <AdaptiveHeader />
       <main>
         <LoginJoin />
         <Categories />

@@ -1,0 +1,35 @@
+.container {
+    width: calc(100% - 20px);
+    height: 4rem;
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: rgb(29, 29, 29);
+    box-shadow: 1px 5px 15px #131313;
+}
+
+.container form {
+    display: flex;
+    width: 100%;
+    height: inherit;
+}
+
+.container input {
+    flex: auto;
+    height: 100%;
+    border-style: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.container button {
+    flex-shrink: 0;
+    width: 4rem;
+    height: auto;
+    border-style: none;
+    outline: none;
+}
+
+.container img {
+    width: 1.2rem;
+    height: auto;
+}
