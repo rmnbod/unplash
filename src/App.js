@@ -9,6 +9,7 @@ import photo2 from '../src/assets/images/photo2.jpg'
 import photo3 from '../src/assets/images/photo3.jpg'
 import avatar from '../src/assets/images/avatar.jpg'
 import AdaptiveHeader from './sections/header/AdaptiveHeader';
+import useAdaptive from './hooks/useAdaptive';
 
 const items = [
   {
@@ -29,11 +30,14 @@ const items = [
 ];
 
 function App() {
+
+  const isMobile = useAdaptive();
+
   return (
     <div className="App">
       <AdaptiveHeader />
       <main>
-        <LoginJoin />
+        { isMobile && <LoginJoin /> }
         <Categories />
         <SearchMain />
         <Feed items={items} />

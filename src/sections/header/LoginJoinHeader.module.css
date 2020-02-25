@@ -1,0 +1,24 @@
+.container {
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.container a {
+  border-radius: 3px;
+  line-height: 2rem;
+  flex: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: lightgray;
+}
+
+.loginBtn {
+  margin: 0 5px 0 10px;
+}
+
+.joinBtn {
+  background-color: rgb(20, 138, 138);
+  padding: 8px 10px;
+  white-space: nowrap;
+}

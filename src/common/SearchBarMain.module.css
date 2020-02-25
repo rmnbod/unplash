@@ -1,10 +1,10 @@
 .container {
     width: calc(100% - 20px);
-    height: 4rem;
+    height: 3rem;
     overflow: hidden;
     border-radius: 5px;
     background-color: rgb(29, 29, 29);
-    box-shadow: 1px 5px 15px #131313;
+    box-shadow: 1px 5px 15px #13131342;
 }
 
 .container form {

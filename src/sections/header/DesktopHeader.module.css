@@ -1,0 +1,47 @@
+.container {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+
+.logo {
+    height: 50%;
+    width: auto;
+    flex-shrink: 0;
+    margin: auto 10px;
+}
+
+.formContainer {
+    flex: auto;
+}
+
+.formContainer form {
+    display: flex;
+}
+
+.container a {
+    margin: auto 10px;
+    color: lightgray;
+}
+
+.container a:first-of-type {
+    margin-left: 20px;
+}
+
+.submit {
+    padding: 5px 10px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.login_join {
+    flex-shrink: 0;
+    width: 15rem;
+}

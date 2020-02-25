@@ -42,8 +42,9 @@
 
 .sectionList p {
   display: inline;
-  margin: 0 0.1rem;
-  color: lightgray;
+  margin: 0 1rem;
+  color: grey;
+  font-size: 0.9rem;
 }
 
 .sectionList::-webkit-scrollbar { 

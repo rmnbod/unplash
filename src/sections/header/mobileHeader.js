@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import home from "../../assets/icons/home.svg";
 import collection from "../../assets/icons/collection.svg";
 import upload from "../../assets/icons/upload.svg";

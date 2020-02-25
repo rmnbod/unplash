@@ -8,6 +8,12 @@ main {
     margin-top: 3rem;
 }
 
+@media(min-width: 768px) {
+    main {
+        margin-top: 4rem;
+    }
+}
+
 .login-join {
     display: flex;
     justify-content: space-between;
