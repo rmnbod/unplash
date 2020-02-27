@@ -1,0 +1,38 @@
+.content {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    position:relative;
+    cursor: zoom-in;
+}
+
+.content img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.controls_overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(transparent, rgba(0, 0, 0, 0.466));
+}
+
+.upper_controls {
+    right: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+.upper_controls button:not(:last-child) {
+    border: none;
+    margin-right: 20px;
+  }
+
+.content:hover .controls_overlay {
+    display: block;
+}

@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react';
 
-let isMobileInitial = checkIsMobile();
+let isMobilePrevious = checkIsMobile()
 
 export default () => {
 
     const [isMobile, setMobile] = useState(checkIsMobile());
 
-    const isMobilePrevious = isMobileInitial;
-    isMobileInitial = isMobile;
-
-    const onResizeHandler = () => isMobilePrevious === isMobile && setMobile(checkIsMobile());
+    const onResizeHandler = () => {
+        console.log(isMobile + " " + isMobilePrevious)
+        if (isMobilePrevious !== checkIsMobile()) {
+            setMobile(checkIsMobile()); console.log("setMobile")
+            isMobilePrevious = checkIsMobile();
+        }
+    }
 
     useEffect(() => {
         console.log("add event")
@@ -22,5 +25,5 @@ export default () => {
 };
 
 function checkIsMobile() {
-    return window.screen.width < 768;
+    return window.innerWidth < 768;
 }

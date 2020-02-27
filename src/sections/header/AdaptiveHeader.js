@@ -17,4 +17,4 @@ export default () => {
   return isMobile ? <MobileHeader /> : <DesktopHeader />;
 };
 
-function checkIsMobile() { return window.screen.width < 768; }
+function checkIsMobile() { return window.innerWidth < 768; }
